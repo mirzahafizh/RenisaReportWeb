@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         {/* Wrap all dashboard-related pages in DashboardLayout */}
-        <Route path="/dashboard" element={<DashboardLayout />}>
+        <Route path="dashboard" element={<DashboardLayout />}>
           <Route path="manage_laporan" element={<ManageLaporan />} />
           <Route path="add_laporan" element={<AddLaporan />} />
           <Route path="all_laporan" element={<AllLaporan />} />
