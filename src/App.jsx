@@ -26,7 +26,7 @@ function App() {
 
 
         </Route>
-        <Route path="/dashboard" element={<DashboardLayout />}>
+        <Route path="dashboard" element={<DashboardLayout />}>
         <Route path="manage_user" element={<ManageUsers />} />
         <Route path="add_user" element={<AddUser />} />
         </Route>
